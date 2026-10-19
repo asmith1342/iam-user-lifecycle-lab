@@ -32,11 +32,15 @@ Security Principles
 Testing and Results
 See `evidence/test-results.md`. The cases are tabletop/documentation exercises, not tests against a real identity platform.
 
+Lessons Learned
+What I learned: I learned how identity and access management (IAM) supports the employee lifecycle, including onboarding, role changes, and offboarding. I also learned why lease privilege matters and why disabling an account does not, by itself, prove that access to connected applications, active sessions, and tokens have been removed.
+
+What I found difficult: Distingushing between what a fictional access record confirms and what still needs verification was an important challenge. For example, the former employee record showed a disabled account, but I could not confirm actual sign-in prevention or removal of connected application access because I did not use a live identity platform.
+
+What I would improve: I would test these procedures in an authorized lab environment, verify access removal in connected applications, and capture sanitized evidence of the results. I would also expand the least-privilege review to investigate whether employees have access that is unnecessary for their assigned roles.
+
 Limitations
 This is a process-design exercise. It does not create or disable real accounts, revoke sessions, or prove a technical control is enforced by a cloud identity provider.
-
-Lessons Learned
-Update this section after completing the exercise. Describe what you learned, what you found difficult, and what you would improve.
 
 Disclaimer
 All names and access records in this repository are fictional. Do not add real credentials, tokens, employee records, or confidential information.
