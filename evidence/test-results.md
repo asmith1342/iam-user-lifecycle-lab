@@ -19,6 +19,7 @@ Next Improvements
 Additional Test: Former Employee Access Review
 
 | Test ID | Scenario | Expected result | Sample result | Status |
+|---|---|---|---|---|
 | T-06 | Review a former employee account in the fictional access inventory. | Account is disabled, and removal of connected application access is verified. | Riley Placeholder (U1005) is marked Disabled. The record flags access removal for verification, but no live identity platform or connected applications were tested. | Partially verified (fictional record review)
 
 Finding: The sample inventory identifies the former employee account as disabled, but this alone does not prove that all application access, active sessions, or tokens have been removed.
