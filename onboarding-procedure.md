@@ -1,9 +1,9 @@
-# Employee Onboarding Procedure
+Employee Onboarding Procedure
 
-## Purpose
+Purpose
 Create access for a new employee only after the identity and request have been appropriately verified and approved.
 
-## Workflow
+Workflow
 1. Receive an onboarding request through the approved company process.
 2. Verify the request is authorized and includes the employee's role, manager, start date, and required applications.
 3. Confirm the employee's identity using the organization's approved process.
@@ -13,12 +13,12 @@ Create access for a new employee only after the identity and request have been a
 7. Verify that the user can access required applications and cannot access unrelated restricted resources.
 8. Record the requester, approver, date, assigned groups, and verification outcome in the approved ticketing or audit system.
 
-## Example Acceptance Criteria
+Example Acceptance Criteria
 - A valid approval exists before access is granted.
 - Access matches the approved role.
 - MFA and other required security settings are applied.
 - The request and verification results are traceable.
 
-## Security Notes
+Security Notes
 Never share passwords over chat or email. Use the platform's approved invitation or credential setup flow. Do not grant administrator privileges simply for convenience.
 
