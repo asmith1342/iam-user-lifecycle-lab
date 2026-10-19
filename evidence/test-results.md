@@ -16,3 +16,12 @@ Next Improvements
 - Add timestamps and evidence references from the lab environment.
 - Record any failures honestly and document corrective actions.
 
+Additional Test: Former Employee Access Review
+
+| Test ID | Scenario | Expected result | Sample result | Status |
+| T-06 | Review a former employee account in the fictional access inventory. | Account is disabled, and removal of connected application access is verified. | Riley Placeholder (U1005) is marked Disabled. The record flags access removal for verification, but no live identity platform or connected applications were tested. | Partially verified (fictional record review)
+
+Finding: The sample inventory identifies the former employee account as disabled, but this alone does not prove that all application access, active sessions, or tokens have been removed.
+
+Recommended follow-up: In an authorized test environment, verify sign-in is blocked, connected application access is removed, and active sessions or tokens are revoked where supported. Record the results and evidence without including real credentials or sensitive user data.
+
