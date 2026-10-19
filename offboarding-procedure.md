@@ -1,9 +1,9 @@
-# Employee Offboarding Procedure
+Employee Offboarding Procedure
 
-## Purpose
+Purpose
 Remove an employee's access promptly when employment or a contract ends, while preserving required business records.
 
-## Workflow
+Workflow
 1. Receive a verified offboarding request from an authorized source.
 2. Confirm the effective date and coordinate timing with the approved HR/security process.
 3. Disable sign-in at the appropriate time using the authorized identity platform.
@@ -14,10 +14,10 @@ Remove an employee's access promptly when employment or a contract ends, while p
 8. Verify that the account cannot authenticate and that relevant access paths are removed.
 9. Record completion and escalate any failed or delayed step.
 
-## Important
+Important
 Do not delete accounts or data automatically if retention, legal hold, investigation, or business-continuity requirements apply. Follow the organization's retention policy.
 
-## Evidence to Record
+Evidence to Record
 - Approved request or ticket reference
 - Effective date/time
 - Identity and applications in scope
