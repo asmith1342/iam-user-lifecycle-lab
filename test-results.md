@@ -1,4 +1,4 @@
-# Tabletop Test Results
+Tabletop Test Results
 
 These are simulated process checks using fictional records. They do not represent tests performed against a live identity platform.
 
@@ -10,7 +10,7 @@ These are simulated process checks using fictional records. They do not represen
 | T-04 | Employee leaves company | Sign-in is disabled and access removal is verified | Offboarding procedure includes verification | Pass (document review) |
 | T-05 | Account disablement fails | Issue is escalated and tracked to resolution | Procedure requires escalation for failed steps | Pass (document review) |
 
-## Next Improvements
+Next Improvements
 - Repeat these cases in an authorized test tenant.
 - Capture sanitized screenshots of configuration and test results.
 - Add timestamps and evidence references from the lab environment.
