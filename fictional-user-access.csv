@@ -1,0 +1,7 @@
+user_id,fictional_name,department,job_role,account_status,access_groups,review_note
+U1001,Jordan Example,IT,Help Desk,Active,HelpDesk;Ticketing,Sample baseline access
+U1002,Casey Sample,HR,HR Specialist,Active,HR-Read;HR-Casework,Access limited to HR duties
+U1003,Taylor Demo,Finance,Finance Analyst,Active,Finance-Reporting,No admin access assigned
+U1004,Morgan Fiction,IT,IT Administrator,Active,IT-Admin,Privileged access requires enhanced review
+U1005,Riley Placeholder,Sales,Sales Associate,Disabled,CRM-Standard,Former employee; verify access removal in a real audit
+U1006,Avery Test,IT,Help Desk,Active,HelpDesk;Finance-Reporting,Flag for review: finance access may be unnecessary
